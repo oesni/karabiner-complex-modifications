@@ -1,0 +1,32 @@
+{
+   "title": "map cmd+esc to cmd+`",
+   "rules": [
+      {
+         "description": "esc to grave_accent_and_tilde on cmd",
+         "manipulators": [
+            {
+               "from": {
+                  "key_code": "escape",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "caps_lock"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "grave_accent_and_tilde",
+                     "modifiers": [
+                        "command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      }
+   ]
+}
